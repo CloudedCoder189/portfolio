@@ -1,8 +1,11 @@
 # Developer Portfolio
 
-A simple personal portfolio website for showcasing software and machine-learning projects.
+A simple personal portfolio website for showcasing software, automation, and machine-learning projects.
 
 ## Featured Projects
+
+### SNO Journalism Automation
+A Flask + Playwright dashboard for automating repetitive SNO/WordPress publishing workflows, including scheduled article drafts and batch staff-profile creation from extracted staff biographies.
 
 ### Climate Prediction API
 A FastAPI service backed by an XGBoost regression model for predicting global temperature anomalies from climate variables such as CO₂, sea-surface temperature, precipitation, and near-surface air temperature.
@@ -17,6 +20,7 @@ A Flask web application that classifies the dominant color of an uploaded image 
 - Python
 - Flask
 - FastAPI
+- Playwright
 - scikit-learn
 - XGBoost
 
