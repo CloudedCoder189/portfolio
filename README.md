@@ -1,6 +1,6 @@
-# Developer Portfolio
+# CloudedCoder189 Developer Portfolio
 
-A simple personal portfolio website for showcasing software, automation, and machine-learning projects.
+A clean portfolio for selected AI/ML, automation, data-science, and software projects.
 
 ## Featured Projects
 
@@ -13,20 +13,29 @@ A FastAPI service backed by an XGBoost regression model for predicting global te
 ### Color Classification
 A Flask web application that classifies the dominant color of an uploaded image using a logistic-regression model trained on image color features.
 
+## Focus
+
+- AI / machine learning
+- automation
+- data science
+- practical Python tools
+
 ## Tech
 
-- HTML
-- CSS
 - Python
 - Flask
 - FastAPI
 - Playwright
 - scikit-learn
 - XGBoost
+- NumPy
+- pandas
+- HTML
+- CSS
 
-## Purpose
+## About
 
-This repository is the front-end home for selected projects. The site is intentionally lightweight and will be expanded as additional projects are published.
+I'm a high school student developer who likes building practical tools and learning through projects. Outside of coding, I also enjoy chess and problem solving.
 
 ## Running Locally
 
