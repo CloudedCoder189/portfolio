@@ -3,15 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nirmith Indukuri's software and machine-learning project portfolio.">
   <link rel="stylesheet" href="style.css">
   <title>Nirmith Indukuri | Developer Portfolio</title>
 </head>
 <body>
-  <section id="header">
+  <header id="header">
     <div class="header container">
-      <div class="nav-bar">
+      <nav class="nav-bar" aria-label="Primary navigation">
         <div class="brand">
-          <a href="#hero"><h1><span>N</span>irmith <span>I</span>ndukuri</h1></a>
+          <a href="#hero" aria-label="Go to top"><h1><span>N</span>irmith <span>I</span>ndukuri</h1></a>
         </div>
         <div class="nav-list">
           <ul>
@@ -20,65 +21,65 @@
             <li><a href="#about">About</a></li>
           </ul>
         </div>
-      </div>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>I'm <span></span></h1>
-        <h1>Nirmith <span></span></h1>
-        <a href="#projects" class="cta">View Projects</a>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Featured <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Climate Prediction API</h1>
-            <h2>XGBoost + FastAPI</h2>
-            <p>A machine-learning API that predicts global temperature anomalies from climate variables including CO₂, sea-surface temperature, precipitation, and near-surface air temperature.</p>
-            <p><a href="https://github.com/CloudedCoder189/climate">View repository</a></p>
-          </div>
-        </div>
-
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Color Classification</h1>
-            <h2>Logistic Regression + Flask</h2>
-            <p>A web application that extracts image color features and predicts the dominant color class using a trained logistic-regression model.</p>
-            <p><a href="https://github.com/CloudedCoder189/color_classification">View repository</a></p>
-          </div>
+  <main>
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello,</h1>
+          <h1>I'm</h1>
+          <h1>Nirmith.</h1>
+          <a href="#projects" class="cta">View Projects</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="about">
-    <div class="about container">
-      <div class="col-right">
-        <h1 class="section-title">About <span>Me</span></h1>
-        <h2>Student Developer</h2>
-        <p>I build software and machine-learning projects with Python and web technologies. My current work focuses on practical applications of data science, APIs, automation, and machine learning.</p>
-        <p>Technologies I use include Python, scikit-learn, XGBoost, Flask, FastAPI, NumPy, pandas, HTML, and CSS.</p>
+    <section id="projects">
+      <div class="projects container">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="all-projects">
+          <article class="project-item">
+            <div class="project-info">
+              <h3>Climate Prediction API</h3>
+              <h2>XGBoost + FastAPI</h2>
+              <p>A machine-learning API that predicts global temperature anomalies from climate variables including CO₂, sea-surface temperature, precipitation, and near-surface air temperature.</p>
+              <p><a href="https://github.com/CloudedCoder189/climate" target="_blank" rel="noreferrer">View repository</a></p>
+            </div>
+          </article>
+
+          <article class="project-item">
+            <div class="project-info">
+              <h3>Color Classification</h3>
+              <h2>Logistic Regression + Flask</h2>
+              <p>A web application that extracts image color features and predicts the dominant color class using a logistic-regression model.</p>
+              <p><a href="https://github.com/CloudedCoder189/color_classification" target="_blank" rel="noreferrer">View repository</a></p>
+            </div>
+          </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="footer">
+    <section id="about">
+      <div class="about container">
+        <div>
+          <h2 class="section-title">About <span>Me</span></h2>
+          <h3>Student Developer</h3>
+          <p>I build software and machine-learning projects with Python and web technologies. My current work focuses on practical applications of data science, APIs, automation, and machine learning.</p>
+          <p>Technologies I use include Python, scikit-learn, XGBoost, Flask, FastAPI, NumPy, pandas, HTML, and CSS.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
     <div class="footer container">
       <div class="brand"><h1><span>N</span>irmith <span>I</span>ndukuri</h1></div>
-      <h2>Software & Machine Learning Projects</h2>
+      <h2>Software &amp; Machine Learning Projects</h2>
       <p>© 2026 Nirmith Indukuri</p>
     </div>
-  </section>
+  </footer>
 </body>
 </html>
